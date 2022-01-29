@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+.App {
+  max-width:860px;
+  min-height: 90vh;
+  margin: 40px auto;
+}
+
+
+body{
+  min-height: 90vh;
+}
+button{
+  border: 2px solid white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Henny Penny', cursive;
+  cursor: pointer;
+  font-size :1em;
+
+  background: none ;
+}
+button:hover{
+ background: #3091ac;
+ color: white;
+ 
+}
+
+.card-grid{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+p{
+  font-family: 'Henny Penny', cursive;
+  font: bolder;
+}
